@@ -102,7 +102,7 @@ if dynamic_knowledge:
 
 # Initialize Gemini Model
 model = genai.GenerativeModel(
-    model_name="gemini-1.5-pro-latest",
+    model_name="gemini-3.5-flash",
     system_instruction=FINAL_SYSTEM_PROMPT
 )
 
